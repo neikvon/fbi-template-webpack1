@@ -3,6 +3,11 @@ module.exports = {
     b: 'build',
     c: 'clean'
   },
+  npm: {
+    alias: 'npm',
+    options: '--save-dev'
+    // options: '--save-dev --registry=https://registry.npm.taobao.org'
+  },
   server: {
     root: 'dst'
   },
