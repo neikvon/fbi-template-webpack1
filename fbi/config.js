@@ -1,4 +1,5 @@
 module.exports = {
+  template: 'backward-compatibility',
   alias: {
     b: 'build',
     c: 'clean'

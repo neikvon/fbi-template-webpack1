@@ -1,5 +1,5 @@
 # fbi-template-backward-compatibility
-Template for fbi v1.0
+Template for fbi v1.x
 
 ### Clone
 ```bash
@@ -22,7 +22,7 @@ $ fbi b -p         # build in production
 $ fbi c            # clean
 ```
 
-### Add to fbi template
+### Add to fbi templates
 ```bash
 $ fbi atm backward-compatibility
 ```
