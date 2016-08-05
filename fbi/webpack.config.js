@@ -13,8 +13,6 @@ module.exports = (requireReslove, ctx) => {
     return entries
   }
 
-  genEntries()
-
   return {
     entry: genEntries(),
     output: {
