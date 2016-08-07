@@ -1,5 +1,5 @@
 # fbi-template-backward-compatibility
-Template for fbi v1.x (on progress)
+Template for fbi [v1.x](https://github.com/neikvon/fbi/tree/v1.x) (on progress)
 
 ### First
 ```bash
