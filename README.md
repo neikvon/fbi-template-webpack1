@@ -1,5 +1,10 @@
 # fbi-template-backward-compatibility
-Template for fbi v1.x
+Template for fbi v1.x (on progress)
+
+### First
+```bash
+$ npm i -g fbi
+```
 
 ### Clone
 ```bash
@@ -24,17 +29,14 @@ $ fbi c            # clean
 
 ### Add to fbi templates
 ```bash
-$ fbi atm backward-compatibility
+$ fbi atm
 ```
 
-### Install dependencies globally
-
-```bash
-$ fbi i
-```
-
-### work on old fbi project
+### Work on old fbi project
 1. copy `./fbi` folder to the old project's root
 2. correct config in ` ./fbi/config.js `   `  ./fbi/handlebars.config.js`   ` ./fbi/webpack.config.js `
 3. remove old config: ` ./fbi.json `   `  ./handlebars.config.js`   ` ./webpack.config.js `
 5. done
+
+#### Notes:
+- change the template name in `./fbi/config.js => template`

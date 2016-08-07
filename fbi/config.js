@@ -1,5 +1,6 @@
 module.exports = {
   template: 'backward-compatibility',
+  templateDescription: 'Full-feature template for fbi v1.x,  webpack + sass + handlebars, multiple entries.',
   alias: {
     b: 'build',
     c: 'clean'
