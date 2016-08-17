@@ -1,17 +1,17 @@
 {
-  "name": "fbi-template-backward-compatibility",
-  "version": "1.0.0",
-  "description": "Template for fbi v1.0",
+  "name": "fbi-template-webpack1",
+  "version": "1.0.1",
+  "description": "Full-feature template for fbi v1.x, with Gulp, Webpack1, Sass and Handlebars.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/neikvon/fbi-template-backward-compatibility.git"
+    "url": "git+https://github.com/neikvon/fbi-template-webpack1.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/neikvon/fbi-template-backward-compatibility/issues"
+    "url": "https://github.com/neikvon/fbi-template-webpack1/issues"
   },
-  "homepage": "https://github.com/neikvon/fbi-template-backward-compatibility#readme",
+  "homepage": "https://github.com/neikvon/fbi-template-webpack1#readme",
   "devDependencies": {
     "autoprefixer": "^6.3.7",
     "css-loader": "^0.23.1",

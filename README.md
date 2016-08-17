@@ -1,5 +1,5 @@
-# fbi-template-backward-compatibility
-Template for fbi [v1.x](https://github.com/neikvon/fbi/tree/v1.x) (on progress)
+# fbi-template-webpack1
+Full-feature template for fbi [v1.x](https://github.com/neikvon/fbi/tree/v1.x), with Gulp, Webpack1, Sass and Handlebars.
 
 ### First
 ```bash
