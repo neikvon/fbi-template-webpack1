@@ -1,6 +1,6 @@
 {
   "name": "fbi-template-webpack1",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Full-feature template for fbi v1.x, with Gulp, Webpack1, Sass and Handlebars.",
   "repository": {
     "type": "git",

@@ -1,4 +1,5 @@
-module.exports = (requireReslove, ctx) => {
+module.exports = (require, ctx) => {
+
   return {
     ignorePartials: true,
     batch: [ctx._.cwd('./src/template/partials')],
@@ -29,4 +30,5 @@ module.exports = (requireReslove, ctx) => {
       staticRoot: ctx.isProduction ? '/' : '..'
     }
   }
+
 }

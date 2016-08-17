@@ -1,6 +1,7 @@
-module.exports = (requireReslove, ctx) => {
-  const webpack = requireReslove('webpack')
-  const glob = requireReslove('glob')
+module.exports = (require, ctx) => {
+
+  const webpack = require('webpack')
+  const glob = require('glob')
   const noop = function () { }
   const hash = ctx.isProduction && ctx.options.webpack.hash
 
@@ -50,4 +51,5 @@ module.exports = (requireReslove, ctx) => {
     ],
     debug: !ctx.isProduction
   }
+
 }
